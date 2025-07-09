@@ -6,7 +6,6 @@ int addition(int a, int b);
 int subs(int a, int b);
 int multiply(int a, int b);
 int divide(int a, int b);
-int modulus(int a, int b);
 
 int main()
 {
@@ -127,9 +126,4 @@ int multiply(int a, int b)
 int divide(int a, int b)
 {
     return a / b;
-}
-
-int modulus(int a, int b)
-{
-    return a % b;
 }
